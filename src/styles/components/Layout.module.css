@@ -1,0 +1,21 @@
+.Main {
+    display: grid;
+    grid-template: 120px minmax(60px, auto) minmax(120px,auto) / 1fr;
+    grid-template-areas: "Header"
+                        "Main"
+                        "Footer";
+                                              
+    row-gap: 0px;
+}
+
+/* .Header {
+    grid-area: Header;
+}
+
+.MainContent {
+    grid-area: Main;
+}
+
+.Footer {
+    grid-area: Footer;
+} */

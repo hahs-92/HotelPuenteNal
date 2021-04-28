@@ -1,0 +1,16 @@
+.Footer {
+    grid-area: Footer;
+    display: grid;
+    row-gap:20px;
+    padding: 5px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    text-align: center;
+}
+
+
+@media (min-width:425px) {
+    .Footer {
+        padding: 20px;
+    }
+}

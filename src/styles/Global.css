@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+    --color-primary: #1e6f5c;
+    --color-primary-dark: #24423B;
+    --color-primary-light: #289672;
+    --color-primary-lightest: #29bb89;
+
+    --color-secundary: #e6dd3b;
+    --color-secundary-dark: #9F991E;
+    --color-secundary-light: #FEF888;
+
+    --color-black: #1A1F1E;
+    --color-black-light: #333736;
+
+    --color-white: #E6F8F2;
+
+    --shadow1: 5px 8px 12px rgba(0, 0, 0, 0.5);
+    --shadow2: 5px 8px 12px rgba(20, 20, 21, 0.487);
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-family);
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+li {
+    list-style: none;
+}
+
+
+h1 {
+    font-size: 2.4rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
+
+h3, p {
+    font-size: 1.6rem;
+}
+
+
+
+@media (min-width:767px) {
+    h1 {
+        font-size: 3.6rem; 
+    }   
+    
+    h2 {
+        font-size: 2.4rem;
+    }
+
+    h3, p {
+        font-size: 1.8rem; 
+    }
+}

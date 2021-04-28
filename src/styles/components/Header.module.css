@@ -1,0 +1,46 @@
+.Header {
+    grid-area: Header;
+    display: grid;
+    grid-template: 80px 40px / minmax(320px, auto);
+    grid-template-areas: "Icon"
+                         "Nav";
+    background-color: var(--color-primary);
+}
+
+.Logo {
+    grid-area: Icon;
+    display: flex;
+    align-items: center;
+}
+
+.Nav {
+    grid-area: Nav;
+    height: 100%;
+    background-color: var(--color-primary);
+}
+
+.NavWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+}
+
+.NavWrapper li {
+    font-size: 1.8rem;
+}
+
+
+@media (min-width:767px) {
+    .Header {
+        grid-template: auto / 180px minmax(320px, auto);
+        grid-template-areas: "Icon Nav";
+    }
+}
+
+@media (min-width:1023px) {
+    .Header {
+        grid-template: auto / 180px 1fr minmax(520px, auto);
+        grid-template-areas: "Icon Null Nav";
+    }
+}
