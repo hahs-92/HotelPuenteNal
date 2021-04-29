@@ -1,0 +1,40 @@
+.CardRoom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 420px;
+    margin: 10px 0px;
+    box-shadow: var(--shadow1);
+    border-radius: 5px;
+}
+
+.Imagen {
+    width: 100%;
+}
+
+.Imagen img {
+    width: inherit;
+    height: 177px;
+    object-fit: cover;
+}
+
+.Description {
+    display: flex;
+    padding: 8px;
+    width: 100%;
+}
+
+.Info {
+    width: 50%;
+}
+
+.Info h3 {
+    font-weight: 500;
+}
+
+.Icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    width: 50%;
+}

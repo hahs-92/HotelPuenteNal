@@ -10,6 +10,7 @@ import styles from '../styles/components/ListCardExp.module.css'
 export const ListCardExp = () => {
     return(
         <section className={ styles.ListCardExp }>
+            <h2>Experiencias</h2>
             {
                 infoExp.map(item => (
                     <CardExp 

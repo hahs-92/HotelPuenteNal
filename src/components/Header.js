@@ -16,7 +16,7 @@ export const Header = () => {
             <nav className={ styles.Nav }>
                 <ul className={ styles.NavWrapper }>
                     <li>
-                        <Link to='/'>Incio</Link>
+                        <Link to='/'>Inicio</Link>
                     </li>
                     <li>
                         <Link to='/Rooms'>Habitaciones</Link>
