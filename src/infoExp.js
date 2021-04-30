@@ -1,7 +1,7 @@
 //IMAGES
-import paisajes from './assests/paisajes.png'
-import cultura from './assests/cultura.png'
-import mayo from './assests/8mayo.png'
+import paisajes from './assests/paisajes.webp'
+import cultura from './assests/cultura.webp'
+import mayo from './assests/8mayo.webp'
 
 export const infoExp = [
     {

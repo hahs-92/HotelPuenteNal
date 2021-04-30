@@ -5,7 +5,7 @@ import { ListCardExp } from '../components/ListCardExp'
 import styles from '../styles/Home.module.css'
 
 //IMAGES
-import Portada from '../assests/Portada.png'
+import Portada from '../assests/Portada.webp'
 
 
 export const Home = () => {

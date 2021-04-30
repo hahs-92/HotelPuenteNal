@@ -18,10 +18,18 @@ export const Footer = () => {
             </section>
 
             <section>
-                <IconMessenger width='48px' height='40px' fill='#E6F8F2'/>
-                <IconYoutobe width='48px' height='40px' fill='#E6F8F2'/>   
-                <IconInstagram width='48px' height='40px' fill='#E6F8F2'/>
-                <IconWeb width='48px' height='40px' fill='#E6F8F2'/>
+                <a href="https://www.facebook.com/" target='_blank' title='Messenger' rel='noreferrer'>
+                    <IconMessenger width='48px' height='40px' fill='#E6F8F2'/>
+                </a>
+                <a href="https://www.youtube.com/channel/UCdU_Ll5tWJwidB9J_BmL4pw" target='_blank' title='Youtube' rel='noreferrer'>
+                    <IconYoutobe width='48px' height='40px' fill='#E6F8F2'/>   
+                </a>
+                <a href="https://www.instagram.com/?hl=es-la" target='_blank' title='Instagram' rel='noreferrer'>
+                    <IconInstagram width='48px' height='40px' fill='#E6F8F2'/>
+                </a>
+                <a href="https://hahsportfolio.web.app/" target='_blank' title='Web' rel='noreferrer'>
+                    <IconWeb width='48px' height='40px' fill='#E6F8F2'/>
+                </a>
             </section>
 
             <section >

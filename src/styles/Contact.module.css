@@ -24,15 +24,73 @@
     height: 50px;
     border: none;
     background-color: var(--color-white);
+    font-family: var(--font-family);
 }
 
 .Form textarea {
     padding: 8px;
     border: none;
     background-color: var(--color-white);
+    font-family: var(--font-family);
 }
 
 .Form :last-child {
     background-color: var(--color-primary);
     color: var(--color-white);
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.Form :last-child:hover {
+    background-color: var(--color-primary-light);
+    transform: scale(1.01);
+    transition: .3s;
+}
+
+.Add {
+    position: absolute;
+    display: none;
+    right: 0px;
+    top: 50px;
+    width: 200px;
+    background-color: var(--color-primary-light);
+}
+
+.AddActive {
+    position: absolute;
+    display: block;
+    right: 0px;
+    top: 50px;
+    width: 200px;
+    background-color: var(--color-primary-light);
+
+    animation: fadeIn .3s ease;
+}
+
+.Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 5px;
+    height: 80px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.Wrapper button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0px);
+    }
 }

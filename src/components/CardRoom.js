@@ -23,16 +23,16 @@ export const CardRoom = ({ src,title, price, wifi, bar, parking, tv }) => {
 
                 <div className={ styles.Icons }>
                     {
-                        wifi && <IconWifi width='24' height='24' />
+                        wifi && <div title='Wifi'> <IconWifi width='24' height='24' /></div>
                     }
                     {
-                        bar &&  <IconCoctel width='24' height='24' />
+                        bar && <div title='MiniBar'><IconCoctel width='24' height='24' /></div>
                     }
                     {
-                        parking && <IconParking width='24' height='24' />
+                        parking && <div title='Parking'><IconParking width='24' height='24' /></div>
                     }
                     {
-                        tv && <IconTv width='24' height='24' />
+                        tv && <div title='Tv'><IconTv width='24' height='24' /></div>
                     }
 
                 </div>
